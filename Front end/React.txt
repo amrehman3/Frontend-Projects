@@ -1,0 +1,171 @@
+variable dec--var name='john';
+console.log(name);
+
+datatypes 4
+number string boolean undifined
+var data =1;
+console.log(typeof data);
+
+string (in quotessingle or double)
+var data ="agddjhvd"
+console.log(typeof data);
+
+bolean (true or false)(only use smaller case)
+var data ="agddjhvd"
+console.log(typeof data);
+
+undifined
+var data ;
+console.log(typeof data);
+
+Arrays
+-------
+var data =[1,2,3,4,5];
+console.log(data[0]);
+
+objects
+-------
+key - value
+name-value
+
+var data={
+name:'john',
+age:28
+}
+console.log(data.age)
+
+
+function user(){
+console.log('hello');
+}
+user(10);
+
+
+conditional statements
+----------------------
+if
+if-else
+if-else if-else
+
+if:
+var marks=85;
+if(marks>80){
+console.log('Grade A')
+}
+elseif(marks>60){
+console.log('grade b')
+}
+else(marks>40){
+console.log('grade c')
+}
+
+
+Looping concept:
+----------------
+for loop
+while loop
+
+For loop:
+for(variable_declaration;condition;inc/dec){
+block code
+}
+
+for(var i=1;i<5;i++){
+console.log(i);
+}
+
+
+While(condition){
+block code
+in/de
+}
+
+Array features    Json Features     Date 
+                                   
+isArray()         stringify()       ValueOf()
+map()
+filter()
+for each()
+every()
+some()
+indexof()
+lastIndexOf()
+
+Json features:
+
+var data ={
+name:'tom',
+age:28
+}
+var json=JSON.stringify(data);
+console.log(json);
+
+Valueof:
+
+var date=new Date();
+console.log(date.valueof());
+-------------------------------------------------------------------------
+ES6:
+
+Let & Const:let variables can be updated but not re-declared; const variables can neither be updated nor re-declared
+
+Arrow Function:const user= ()=> console.log('hello')
+                user();
+
+Classes:
+class user{
+admin(){
+        console.log('From admin method')
+         }
+         }
+       let obj = new User();
+       obj.admin();
+
+
+For..of:
+ const arr=[1,2,3,4];
+ for(const a of arr){
+  console.log(a);
+  }
+
+
+Default Parameter:
+function use(name,age=24){
+console.log(name+" "+age)
+}
+user('jon',25)
+
+
+Rest Operator:
+function user(name,...remaining){
+console.log(name+" : "+remaining)
+}
+user('John',25,"mail@gmail.com",12345)
+
+
+Spread Operator:
+let arr1=[1,2,3,4,5];
+let arr2=[6,7,8,9,10];
+let arr3=[...arr1,...arr2];
+console.log(arr3);
+
+
+Destructuring:
+let person={
+name:"jon",
+
+
+
+-------------------------------------------------------------------------
+                                 React
+ 
+Run this command to move to the my-react-app directory:
+cd my-react-app
+
+Run this command to run the React application my-react-app:
+npm start
+
+
+
+
+
